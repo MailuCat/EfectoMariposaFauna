@@ -1,0 +1,294 @@
+	[
+            { 
+              "title": "Picaflor de Arica",
+              "description": "Eulidia yarrellii",
+              "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/84006729/large.jpg",
+              "url": "http://www.efectomariposa.org/picaflordearica",
+              "endemico": true,
+              "categories": [ 
+                "Ave",
+                "Chordata",
+                "Apodiforme"
+                ],
+              "estado": "En peligro crítico",
+              "objectID": "1"
+            },
+      
+            {
+              
+              "title": "Puma",
+              "description": "Puma Concolor",
+              "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/13838752/medium.jpeg",
+              "url": "http://www.efectomariposa.org/puma",
+              "endemico": false,
+              "categories": [
+                "Mamífero",
+                "Felino",
+                "Chordata"
+               ],
+               "estado":"Casi Amenazada",
+               "objectID": "2"
+            },
+           
+            {
+              
+              "title": "Delfín nariz de botella",
+              "description": "Tursiops truncatus",
+              "image": "https://live.staticflickr.com/5615/15649152020_588138e7b7.jpg",
+              "url": "https://efectomariposa.org/delfinnarizbotella",
+              "endemico": false,
+              "categories": [
+                "Mamífero",
+                "Cetacea",
+                "Chordata"
+              ],
+              "estado": "En peligro",
+              "objectID": "3"
+            },
+      
+          {
+              "title": "Degu",
+              "description": "Octodon degus",
+              "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/177786151/original.jpeg",
+              "url": "http://www.efectomariposa.org/degu",
+              "endemico": false,
+              "categories": [
+                "Mamífero",
+                "Roedor",
+                "Chordata"
+              ],
+              "estado":"Preocupación menor",
+              "objectID": "4"
+            },
+      
+            {
+              
+              "title": "Gato Andino",
+              "description": "Leopardus jacobita",
+              "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/152470757/original.jpeg",
+              "url": "http://www.efectomariposa.org/gatoandino",
+              "endemico": false,
+                "categories": [
+                   "Mamífero",
+                   "Felino", 
+                   "Chordata" 
+                ],
+              "estado": "En peligro crítico",
+              "objectID": "5"
+            },
+              
+            {
+              
+              "title": "Colocolo",
+              "description": "Leopardus colocolo",
+              "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/156027880/large.jpg",
+              "url": "http://www.efectomariposa.org/colocolo",
+              "endemico": false,
+              "categories": [
+                "Mamífero",
+                "Felino",
+                "Chordata"
+              ],
+              "estado":"Casi amenazada",
+              "objectID": "6"
+            },
+      
+            {
+              
+              "title": "Güiña",
+              "description": "Leopardus guigna",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Leopardus_guigna.jpeg/600px-Leopardus_guigna.jpeg",
+              "url": "http://efectomariposa.org/guina",
+              "endemico": false,
+              "categories": [
+                "Mamífero",
+                "felino",
+                "Chordata"
+              ],
+              "estado": "Vulnerable",
+              "objectID": "7"
+            },
+      
+            {
+              "title": "Zorro chilote",
+              "description": "Lycalopex fulvipes",
+              "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/12008950/medium.jpg",
+              "url": "http://www.efectomariposa.org/zorrochilote",
+              "endemico":true,
+              "categories":[
+                    "Mamífero",
+                    "Canindo",
+                    "Chordata"
+                  ],
+                  "estado": "En peligro",
+                  "objectID": "8"
+                },
+            
+        {
+          
+          "title": "Ranita de Darwin del Norte",
+          "description": "Rhinoderma rufum",
+          "image": "https://live.staticflickr.com/65535/52012127075_c1f8ee5534_m.jpg",
+          "url":"http://www.efectomariposa.org/ranitadarwin",
+          "endemico": true,
+          "categories": [
+            "Anfibio", 
+            "Anuro",
+            "Chordata"
+          ],
+          "estado": "En peligro",
+          "objectID": "9"
+        },
+      
+        {
+          
+          "title": "Ranita de Darwin del Sur",
+          "description": "Rhinoderma darwinii",
+          "image": "https://live.staticflickr.com/4148/5010352361_ebc20885f3_w.jpg",
+          "url":"http://www.efectomariposa.org/ranitadarwinsur",
+          "endemico": true,
+          "categories": [
+            "Anfibio",
+            "Anuro",
+            "Chordata"
+          ],
+         "estado": "En peligro",
+         "objectID": "10"
+        },
+      
+        {
+          
+          "title": "Sapo de pecho espinoso de Barrio",
+          "description": "Alsodes barroi",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Alsodes_barroi.jpg/520px-Alsodes_barroi.jpg",
+          "url":"http://www.efectomariposa.org/sapobarrio",
+          "endemico": true,
+          "categories": [
+            "Anfibio",
+            "Anuro",
+            "Chordata"
+          ],
+          "estado": "En peligro",
+          "objectID": "11"
+        },
+      
+        {
+          
+          "title": "Sapo hermoso",
+          "description": "Telmatobufo venustus",
+          "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/179669364/original.jpeg",
+          "url":"http://www.efectomariposa.org//sapohermoso",
+          "endemico": true,
+          "categories": [
+            "Anfibio",
+            "Anuro",
+            "Chordata"
+          ],
+          "estado": "En peligro",
+          "objectID": "12"
+        },
+      
+        {
+          
+          "title": "Aguilucho de Juan Fernández",
+          "description": "Geranoaetus polyosoma exsul",
+          "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/36177952/large.jpg",
+          "url":"http://www.efectomariposa.org/aguiluchojuanfernandez",
+          "endemico": true,
+          "categories": [
+            "Ave",
+            "Accipitriformes",
+            "Chordata"
+          ],
+          "estado": "En peligro crítico",
+          "objectID": "13"
+        },
+      
+        {
+          "title": "Queltehue",
+          "description": "Vanellus chilensis",
+          "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/3004798/medium.jpg",
+          "url":"http://www.efectomariposa.org/queltehue",
+          "endemico": false,
+          "categories": [
+            "Ave",
+            "Charadriiformes",
+            "Chordata"
+          ],
+          "estado": "Preocupación menor",
+          "objectID": "14"
+        },
+      
+        {
+          
+          "title": "Rayadito Más Afuera",
+          "description": "Aphrastura masafuerae",
+          "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/70145409/original.jpg",
+          "url":"http://www.efectomariposa.org/rayaditimasafuera",
+          "endemico": true,
+          "categories": [
+            "Ave",
+            "Passeriformes",
+            "Chordata"
+          ],
+          "estado":"En peligro crítico",
+          "objectID": "15"
+        },
+      
+        {
+          
+          "title": "Abejorro naranja",
+          "description": "Bombus Dahlbomii",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Bombus_dahlbomii.jpg/440px-Bombus_dahlbomii.jpg",
+          "url":"http://www.efectomariposa.org/abejorronaranja",
+          "endemico": false,
+          "categories": ["Insecto", "Hymenoptera", "Apidae"
+          ],
+          "estado": "En peligro",
+          "objectID": "16"
+        },
+      
+        {
+          "title": "Sierra del Orocoipo",
+          "description": "Callisphyris ficheti",
+          "image": "https://th.bing.com/th/id/R.bc7331b80b346420ac24a3fbee0a98f8?rik=ptDHH80MpHGOug&riu=http%3a%2f%2fwww.coleoptera-neotropical.org%2fpaginas%2f3ac_familias%2fcerambycoidea%2f1foto%2fNecydalinae%2fCallisphyris-ficheti%2fCallisphyris-ficheti-PARATYPUS-D600c.jpg&ehk=mAlF7cyAq380hoGizP4g%2fuuAlxauvUEd1RlH5kjUWtc%3d&risl=&pid=ImgRaw&r=0",
+          "url":"http://www.efectomariposa.org/cierradeorocoipo",
+          "endemico": false,
+          "categories": ["Insecto", "Arthropoda", "Coleoptera"
+          ],
+          "estado":"En peligro crítico",
+          "objectID": "17"
+        },
+      
+        {
+         
+          "title": "Cnemalobus pegnai",
+          "description": "Cnemalobus pegnaiii",
+          "image": "https://fotonaturaleza.cl/uploadImages/8/51576c56655745314f4456614d5556455432686a64555653536a41775a7a3039.jpg",
+          "url":"http://www.efectomariposa.org/cnemalobuspegnai",
+          "endemico": true,
+          "categories": [
+            "Insecto",
+            "Arthropoda",
+            "Coleoptera"
+           ],
+           "estado": "En peligro crítico",
+           "objectID": "18"
+        },
+      
+        {
+         
+          "title": "Manuelia Postica",
+          "description": "Manuelia Postica",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Manuelia_gayi_Male.jpg/1280px-Manuelia_gayi_Male.jpg",
+          "url":"http://www.efectomariposa.org/manuelia",
+          "endemico": true,
+          "categories": ["Insecto",
+            "Hymenoptera",
+            "Apidae"
+          ],
+          "estado":"Fuera de peligro",
+          "objectID": "19"
+        }
+]
+       

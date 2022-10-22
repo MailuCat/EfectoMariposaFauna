@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title> Efecto Mariposa etología de la fauna de Chile </title>
+<link> https://www.efectomariposa.org </link>
+<description> Sitio informativo sobre el comportamienton de la fauna de Chile </description>
+<item>
+<title> Degu </title>
+<link> http://www.efectomariposa.org/degu </link>
+<description> Octodón degus </description>
+<image> https://www.yourdomain.com/blackberry-blueberry-pie.jpg </image>
+<endemico> false </endemico>
+<categories> mamifero roedor chordata preocupación menor </categories>
+</item>
+<item>
+<title> Colocolo </title>
+<link> http://www.efectomariposa.org/colocolo </link>
+<description> Leopardus colocolo </description>
+<image> https://www.inaturalist-open-data.s3.amazonaws.com/photos/156027880/large.jpg </image>
+<endemico> false </endemico>
+<categories> mamifero, felidae, chordata, casi amenazado </categories>
+</item>
+<item>
+<title> Delfín nariz de botella </title>
+<link> http://www.efectomariposa.org/delfinnarizbotella </link>
+<description> delfin mular </description>
+<image> </image>
+<endemico> false </endemico>
+<categories> [mamifero, cetacea, chordata, vulnerable, preocupación menor </categories>
+</item>
+<item>
+<title> Gato Andino </title>
+<link> http://www.efectomariposa.org/gatoandino </link>
+<description> Leopardus jacobita </description>
+<image> "https://www.inaturalist-open-data.s3.amazonaws.com/photos/152470757/original.jpeg" </image>
+<endemico> false </endemico>
+<categories> mamífero, felino, chordata, en peligro </categories>
+</item>
+<item>
+<title> Güiña </title>
+<link> http://www.efectomariposa.org/guina </link>
+<description> Leopardus guigna </description>
+<endemico> false </endemico>
+<categories> mamífero, felino, chordata, vulnerable </categories>
+</item>
+<item>
+<title> Puma </title>
+<link> http://www.efectomariposa.org/puma </link>
+<description> Puma Concolor </description>
+<image> https://www.inaturalist-open-data.s3.amazonaws.com/photos/13838752/medium.jpeg </image>
+<endemico> false </endemico>
+<categories> mamífero, felino, chordata, casi amanazada, preocupación menor </categories>
+</item>
+<item>
+<title> Zorro chilote </title>
+<link> http://www.efectomariposa.org/zorrochilote </link>
+<description> Lycalopex fulvipes </description>
+<image> https://www.inaturalist-open-data.s3.amazonaws.com/photos/12008950/medium.jpg </image>
+<endemico> true </endemico>
+<categories> mamífero, canindo, chordata, en peligro </categories>
+</item>
+<item>
+<title> Ranita de Darwin del Norte </title>
+<link> http://www.efectomariposa.org/ranitadarwin </link>
+<description> Rhinoderma rufum </description>
+<endemico> true </endemico>
+<categories> anfibio, anuro, chordata, en peligro </categories>
+</item>
+<item>
+<title> Ranita de Darwin del Sur </title>
+<link> http://www.efectomariposa.org/ranitadarwinsur </link>
+<description> Rhinoderma darwinii </description>
+<image> https://www.live.staticflickr.com/4148/5010352361_ebc20885f3_w.jpg </image>
+<endemico> true </endemico>
+<categories> anfibio, anuro, chordata, en peligro </categories>
+</item>
+<item>
+<title> Sapo de pecho espinoso de Barrio </title>
+<link> http://www.efectomariposa.org/sapobarrio </link>
+<description> Alsodes barroi </description>
+<endemico> true </endemico>
+<categories> anfibio, anuro, chordata, en peligro </categories>
+</item>
+<item>
+<title> Sapo hermoso </title>
+<link> http://www.efectomariposa.org//sapohermoso </link>
+<description> Telmatobufo venustus </description>
+<image> https://www.inaturalist-open-data.s3.amazonaws.com/photos/179669364/original.jpeg </image>
+<endemico> true </endemico>
+<categories> anfibio, anuro, chordata, en peligro </categories>
+</item>
+<item>
+<title> Aguilucho de Juan Fernández </title>
+<link> http://www.efectomariposa.org/aguiluchojuanfernandez </link>
+<description> Geranoaetus polyosoma exsul </description>
+<image> https://www.inaturalist-open-data.s3.amazonaws.com/photos/36177952/large.jpg </image>
+<endemico> true </endemico>
+<categories> ave, accipitriformes, chordata, en peligro crítico </categories>
+</item>
+<item>
+<title> Picaflor de Arica </title>
+<link> http://www.efectomariposa.org/picaflordearica </link>
+<description> Eulidia yarrellii </description>
+<image> "https://www.inaturalist-open-data.s3.amazonaws.com/photos/84006729/large.jpg" </image>
+<endemico> true </endemico>
+<categories> ave, Apodiformes, chordata, en peligro crítico </categories>
+</item>
+<item>
+<title> Queltehue </title>
+<link> http://www.efectomariposa.org/queltehue </link>
+<description> Vane>llus chilensis </description>
+<image> https://www.inaturalist-open-data.s3.amazonaws.com/photos/3004798/medium.jpg </image>
+<endemico> fa </endemico>
+<categories> ave, Charadriiformes, chordata, preocupación menor </categories>
+</item>
+<item>
+<title> Rayadito Más Afuera </title>
+<link> http://www.efectomariposa.org/rayaditimasafuera </link>
+<description> Aphrastura masafuerae </description>
+<image> https://www.inaturalist-open-data.s3.amazonaws.com/photos/70145409/original.jpg" </image>
+<endemico> tr </endemico>
+<categories> ave, Passeriformes, chordata, en peligro crítico </categories>
+</item>
+<item>
+<title> Abejorro naranja </title>
+<link> http://www.efectomariposa.org/abejorro </link>
+<description> ombus Dahlbomii </description>
+<endemico> fa </endemico>
+<categories> insecto, Hymenoptera, Apidae, en peligro </categories>
+</item>
+<item>
+<title> Cnemalobus pegnai </title>
+<description> Cnemalobus pegnai </description>
+<image> https://www.fotonaturaleza.cl/images.php?action=showImageidImage=75086 </image>
+<endemico> tr </endemico>
+<categories> insecto Arthropoda Coleoptera en peligro crítico </categories>
+<link> http://www.efectomariposa.org/cnemalobuspegnai </link>
+w
+</item>
+<item>
+<title> Manuelia Postica" </title>
+<link> http://www.efectomariposa.org/manuelia </link>
+<description> Manuelia Postica </description>
+<endemico> tr </endemico>
+<categories> insecto, Hymenoptera, apidae fuera de peligro </categories>
+</item>
+</channel>
+</rss>
