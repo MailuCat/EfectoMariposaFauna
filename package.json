@@ -17,6 +17,7 @@
     "vue": "^2.6.11",
     "vue-instantsearch": "^1.7.0",
     "vue-router": "^3.2.0",
+    "vue-social-sharing": "^3.0.9",
     "vue-videobg": "^2.0.0",
     "vuetify": "^2.6.1",
     "vuex": "^3.4.0"
