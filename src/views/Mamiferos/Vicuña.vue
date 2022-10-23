@@ -4,8 +4,8 @@
     <v-container>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">La Vicuña (Vicugna vicugna)</h1>
-          <p class="fecha">14 de junio 2022</p>
+          <h1>La Vicuña (Vicugna vicugna)</h1>
+          <p>14 de junio 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -105,25 +105,25 @@
           cierne la sombra de la falta de agua y el cambio climático. Porque su
           hábitat predilecto, el bofedal, requiere de agua para existir.
         </p>
-        <h3 class="ma-4">Enlace a las fuentes:</h3>
-        <p class="fuente">
+        <h3 class="enlaces_bibliografia">Enlaces a las fuentes</h3>
+        <p class="enlaces_bibliografia">
           <a
             href="https://repositorio.uchile.cl/handle/2250/131734"
             >
           </a>Interacción espacio–temporal entre vicuña (vicugna vicugna) y llama (lama glama) en el sector de Tara, región de Antofagasta, Chile. Daniel Ignacio Valencia Olatte.2013
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a href="https://www.tandfonline.com/doi/abs/10.1080/01650529509360940"
             ></a
           >Vilá BL (1995). Spacing patterns within groups in vicuñas, in relation to sex and behaviour. Studies on Neotropical Fauna and Environment 30:45-5
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a
             href="https://ediciones.uc.cl/comportamiento-social-de-la-fauna-nativa-dechile.html"
             >
           </a>Comportamiento social de la fauna nativa de Chile", Luis A Ebensperger y Antonieta Labra
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a
             href=""
             ></a
@@ -251,16 +251,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.fecha {
-  text-align: center;
-}
-
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -275,29 +266,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -335,3 +328,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

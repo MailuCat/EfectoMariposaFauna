@@ -5,8 +5,8 @@
     <v-container>
         <v-row class="justify-center">
             <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-                <h1 class="titulo">Güiña (Leopardus guigna)</h1>
-                <p class="fecha">1 de febrero 2022</p>
+                <h1>Güiña (Leopardus guigna)</h1>
+                <p>1 de febrero 2022</p>
             </v-col>
         </v-row>
         <v-row class="justify-center">
@@ -85,28 +85,28 @@
                 colihue (bambú nativo).
             </p>
 
-            <h3 class="ma-4">Enlaces a las fuentes: </h3>
+            <h3 class="enlaces_bibliografia">Enlaces a las fuentes </h3>
 
-            <a href="https://snifa.sma.gob.cl/General/DescargarInformeSeguimiento/109300">
+            <a class="enlaces_bibliografia" href="https://snifa.sma.gob.cl/General/DescargarInformeSeguimiento/109300">
                 Informe final del estudio Poblacional de guiña (lopardus guigna) en
                 Altos de Cantillana y área de influencia de Minera FLorida Ltda.
             </a>
 
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1616504714000408">
+            <a class="enlaces_bibliografia" href="https://www.sciencedirect.com/science/article/abs/pii/S1616504714000408">
                 Activity patterns of the vulnerable guiña (Leopardus guigna) and it’s
                 main prey in the valdivian rainforest of southern Chile.
             </a>
 
-            <a href="https://publicaciones.mnhn.gob.cl/668/articles-64480_archivo_01.pdf">
+            <a class="enlaces_bibliografia" href="https://publicaciones.mnhn.gob.cl/668/articles-64480_archivo_01.pdf">
                 Uso del hábitat, actividad y dieta de la guiña en el Parque Nacional
                 Laguna San Rafael.
             </a>
 
-            <a href="https://www.nationalgeographicla.com/animales/2020/05/misterioso-gato-guina-hito-photo-ark">
+            <a class="enlaces_bibliografia" href="https://www.nationalgeographicla.com/animales/2020/05/misterioso-gato-guina-hito-photo-ark">
                 Conoce a la güiña, un 'gato misterioso' en peligro de extinción. National Geographic.
             </a>
 
-            <a href="https://academic.oup.com/jmammal/article/83/2/608/2373376">
+            <a class="enlaces_bibliografia" href="https://academic.oup.com/jmammal/article/83/2/608/2373376">
                 Natural history and landscape-use of gignas (oncifelis guigna) on
                 Isla Grande de Chiloé, Chile.
             </a>
@@ -230,83 +230,81 @@ export default {
 
 };
 </script>
-
 <style>
-.fecha {
-    text-align: center;
-}
-.v-application a {
-    color: #3f3f42;
-    margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
-    .fotonota {
-        width: 50px;
-    }
+  .fotonota {
+    width: 50px;
+  }
 
-    .texto {
-        padding: 2rem 3rem 2.5rem 3rem;
-        text-align: justify;
-    }
+  .texto {
+    padding: 2rem 3rem 2.5rem 3rem;
+    text-align: justify;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .texto {
-        padding: 2rem 9rem 2.5rem 9rem;
-        text-align: justify;
-    }
-}
-
-p.foto_texto {
-    font-size: 0.8rem;
-    padding-top: 0rem;
-    padding-left: 20%;
-    padding-bottom: 0;
+  .texto {
+    padding: 2rem 9.5rem 2.5rem 9rem;
+    text-align: justify;
+  }
 }
 
 hr {
-    background-color: gray;
-    height: 2px;
-    margin-left: 9rem;
-    margin-right: 9.5rem;
-    margin-top: 3rem;
+  background-color: gray;
+  height: 2px;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
+}
 
 .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  a[class^="share-network-"] {
-    flex: none;
-    color: #FFFFFF;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
-  }
+a[class^="share-network-"] {
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
 
-  a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
-  }
+a[class^="share-network-"] .fah {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
+}
 
-  a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
-  }
-
+a[class^="share-network-"] span {
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
+}
 </style>
+

@@ -8,8 +8,8 @@
     <v-container>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Zorro Chilote (Lycalopex fulvipes)</h1>
-          <p class="fecha">1 de febrero 2022</p>
+          <h1>Zorro Chilote (Lycalopex fulvipes)</h1>
+          <p>1 de febrero 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -75,27 +75,27 @@
           envejecen los zorros se vuelven más propensos al contagio y
           vulnerables a fallecer por esta causa.
         </p>
-        <h3 class="ma-4">Enlace a las fuentes:</h3>
 
-        <a
+        <h3 class="enlaces_bibliografia">Enlaces a las fuentes</h3>
+        <a class="enlaces_bibliografia"
           href="https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0716-078X2014000100003"
         >
           Ecology of a coastal population of the critically endangered Darwin’s
           fox (Pseudalopex fulvipes) on Chiloé Island, southern Chile.</a
         >
 
-        <a
+        <a class="enlaces_bibliografia"
           href="https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0716-078X2014000100003"
           >A new population of Darwin's fox (Lycalopex fulvipes) in the
           Valdivian Coastal Range</a
         >
-        <a
+        <a class="enlaces_bibliografia"
           href="https://mma.gob.cl/estudio-del-ministerio-del-medio-ambiente-da-cuenta-de-nuevos-registros-del-zorro-de-darwin-fuera-del-cordon-de-nahuelbuta-en-la-araucania/"
           >Estudio del Ministerio del Medio Ambiente da cuenta de nuevos
           registros del zorro de Darwin fuera del cordón de Nahuelbuta en La
           Araucanía</a
         >
-        <a href="https://www.iucnredlist.org/species/41586/107263066"
+        <a class="enlaces_bibliografia"  href="https://www.iucnredlist.org/species/41586/107263066"
           >Zorro Chilote (Zorro de Darwin) en la Lista Roja IUCN</a
         >
       </v-row>
@@ -216,24 +216,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.fecha {
-  text-align: center;
-}
-
-hr {
-  background-color: gray;
-  height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
-}
-
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -248,16 +231,31 @@ hr {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
 }
 
+hr {
+  background-color: gray;
+  height: 2px;
+  margin: 3rem 9.5rem auto 9rem;
+}
+
 p.foto_texto {
   font-size: 0.8rem;
-  padding-top: 0rem;
   padding-left: 20%;
-  padding-bottom: 0;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -295,3 +293,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

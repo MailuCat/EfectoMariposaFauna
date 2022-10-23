@@ -8,8 +8,8 @@
       </title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Manuelia Postica</h1>
-          <p class="fecha">13 de diciembre 2021</p>
+          <h1>Manuelia Postica</h1>
+          <p>13 de diciembre 2021</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -197,8 +197,8 @@ export default {
   
 };
 </script>
-
 <style>
+
 @media screen and (max-width: 1200px) {
   .fotonota {
     width: 50px;
@@ -212,60 +212,65 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-p.foto_texto {
-  font-size: 0.6rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90% ;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
+}
 
 .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  a[class^="share-network-"] {
-    flex: none;
-    color: #FFFFFF;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
-  }
+a[class^="share-network-"] {
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
 
-  a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
-  }
+a[class^="share-network-"] .fah {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
+}
 
-  a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
-  }
-
+a[class^="share-network-"] span {
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
+}
 </style>

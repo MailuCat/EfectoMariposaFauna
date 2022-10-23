@@ -249,7 +249,7 @@ const routes = [
     {
     path: '/contacto',
     name: 'Contacto',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Contactame.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Contacto.vue')
     },
     {
       path: '/acerca_de_efectomariposa',

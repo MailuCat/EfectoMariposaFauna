@@ -5,8 +5,8 @@
       <title>Reptiles de Chile: Lagartija de Lolol (Liolaemus confusus)</title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Lagartija de Lolol (Liolaemus confusus)</h1>
-          <p class="fecha">25 de febrero 2022</p>
+          <h1>Lagartija de Lolol (Liolaemus confusus)</h1>
+          <p>25 de febrero 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -58,13 +58,10 @@
           para planificar medidas que permitan conservar a esta especie que va
           camino a la extinción.
         </p>
-      </v-row>
-      <h3 class="mb-3 fuente">Enlace a fuentes:</h3>
+ 
+      <h3 class="enlaces_bibliografia">Enlace a fuentes:</h3>
 
-      <p class="fuente">
-        <a href=""> </a>
-      </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.researchgate.net/publication/332329629_INFORME_FINAL_ESTUDIO_DE_LA_LAGARTIJA_LIOLAEMUS_CONFUSUS_EN_LA_SUBCUENCA_ESTERO_LOLOL/citation/download"
         >
@@ -72,7 +69,7 @@
           subsecuencia estero Lolol.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://fundacionphilippi.cl/wp-content/uploads/2018/10/gui-a-de-campo-reptiles-del-centro-sur-de-chile.pdf"
         >
@@ -83,6 +80,7 @@
           >Liolaemus confuses en el Libro rojo de las especies de IUCN</a
         >
       </p>
+      </v-row>    
     </v-container>
     <div class="share-network-list">
       <ShareNetwork
@@ -201,12 +199,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -221,69 +214,66 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-.fecha {
-  text-align: center;
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
 }
 
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
+}
 
 .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  a[class^="share-network-"] {
-    flex: none;
-    color: #FFFFFF;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
-  }
+a[class^="share-network-"] {
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
 
-  a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
-  }
+a[class^="share-network-"] .fah {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
+}
 
-  a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
-  }
-
+a[class^="share-network-"] span {
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
+}
 </style>
+

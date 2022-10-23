@@ -7,10 +7,10 @@
       </title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">
+          <h1>
             Sapo hermoso (Telmatobufo venustus)
           </h1>
-          <p class="fecha">16 de marzo 2022</p>
+          <p>16 de marzo 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -67,17 +67,17 @@
           depredando las crías. Esta es una de las amenazas, también lo son los
           sedimentos pesados generados por el hombre y los incendios forestales.
         </p>
-      </v-row>
-      <h3 class="mb-3 fuente">Enlace a fuentes:</h3>
+      
+      <h3 class="enlaces_bibliografia">Enlace a fuentes</h3>
 
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a href="https://link.springer.com/article/10.1186/s40693-021-00100-8">
           Un nuevo registro geográfico del venustus de Telmatobufo (Amphibia:
           Calyptocephalellidae) en peligro de extinción en la Región del Biobío,
           Chile.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.researchgate.net/publication/257023415_A_review_of_the_Chile_Mountains_False_Toad_Telmatobufo_venustus_Amphibia_Anura_Calyptocephalellidae_with_comments_on_its_conservation_status"
         >
@@ -86,7 +86,7 @@
           conservation status. Herpetological Review 42(4):514-519.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.researchgate.net/publication/342926423_Guia-Anfibios-de-los-bosques-de-la-zona-centro-sur-y-patagonia-de-Chile"
         >
@@ -94,6 +94,7 @@
           Chile.
         </a>
       </p>
+      </v-row>
     </v-container>
     <div class="share-network-list">
       <ShareNetwork
@@ -213,12 +214,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -229,71 +225,69 @@ export default {
     padding: 2rem 3rem 2.5rem 3rem;
     text-align: justify;
   }
-
-  .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-  }
-
-  a[class^="share-network-"] {
-    flex: none;
-    color: #ffffff;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
-  }
-
-  a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
-  }
-
-  a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
-  }
 }
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-.fecha {
-  text-align: center;
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90% ;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
+}
+
+.share-network-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+a[class^="share-network-"] {
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
+
+a[class^="share-network-"] .fah {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
+}
+
+a[class^="share-network-"] span {
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
 }
 </style>

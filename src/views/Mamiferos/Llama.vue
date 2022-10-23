@@ -4,8 +4,8 @@
     <v-container>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Llama (Llama glama)</h1>
-          <p class="fecha">9 de junio 2022</p>
+          <h1>Llama (Llama glama)</h1>
+          <p>9 de junio 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -109,25 +109,25 @@
           Comprender el comportamiento de animales domesticados como la llama es de vital importancia para entregarles la atención
           necesaria para un buen estado emocional y físico.
         </p>
-        <h3 class="ma-4">Enlace a los documentos fuentes:</h3>
-        <p class="fuente">
+        <h3 class="enlaces_bibliografia">Enlace a las fuentes</h3>
+        <p class="enlaces_bibliografia">
           <a
             href="https://web.uchile.cl/vignette/avancesveterinaria/CDA/avan_vet_simple/0,1423,SCID%253D10001%2526ISID%253D473%2526PRT%253D9975,00.html"
             >Características biológicas y productivas de los camélidos sudamericanos. Avances en Medicina Veterinaria, Vol.6, N.º 2, julio-diciembre, 1991. 
           </a>
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a href="https://doi.org/10.1186/s13059-020-02080-6"
             >Fan, R., Gu, Z., Guang, X. et al. Análisis genómico de la domesticación y evolución post-conquista española de la llama y la alpaca. Genoma Biol 21, 159 (2020).</a
           >
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a
             href="https://scielo.conicyt.cl/scielo.php?pid=S0716-078X2007000200001&script=sci_arttext&tlng=e"
             >Sistemática, taxonomía y domesticación de alpacas y llamas: nueva evidencia cromosómica y molecular. Revista Chilena de Historia Natural, 80: 121-140, 2007.
           </a>
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a
             href="https://www.kulshanvet.com/files/2015/04/Alpaca_Llama_Behavior.pdf"
             >Alpaca - llama - behaivor y sus Implicacione para la Detección de Enfermedades. Murray E. Fowler, DVM, Universidad de California, Davis. Camelid Symposium 2013.</a
@@ -255,16 +255,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.fecha {
-  text-align: center;
-}
-
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -279,29 +270,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -339,3 +332,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

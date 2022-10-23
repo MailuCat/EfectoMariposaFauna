@@ -5,10 +5,10 @@
       <title>Anfibios de Chile: Ranita de Darwin (Rhinoderma rufum)</title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">
+          <h1>
             Ranita de Darwin del Norte (Rhinoderma rufum)
           </h1>
-          <p class="align-middle">11 de marzo 2022</p>
+          <p>11 de marzo 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -64,16 +64,16 @@
           enfermedades. La quitridiomicosis probablemente es la causa de su
           extención misteriosa.
         </p>
-      </v-row>
-      <h3 class="mb-3 fuente">Enlace a fuentes:</h3>
+      
+      <h3 class="enlaces_bibliografia">Enlace a fuentes</h3>
 
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a href="https://www.iucnredlist.org/species/19514/79809567"
           >Ranita de Darwin del Norte.Rhinoderma rufum. Lista Roja de los
           Animales
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.researchgate.net/publication/357151016_The_highly_variable_release_call_of_the_missing_Northern_Darwin%27s_frog_Rhinoderma_rufum"
         >
@@ -81,6 +81,7 @@
           frog, Rhinoderma rufum
         </a>
       </p>
+      </v-row>
     </v-container>
      <div class="share-network-list">
       <ShareNetwork
@@ -161,13 +162,7 @@ export default {
   
 };
 </script>
-
 <style>
-
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -182,64 +177,65 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
 }
 
+hr {
+  background-color: gray;
+  height: 2px;
+  margin: 3rem 9.5rem auto 9rem;
+}
+
 p.foto_texto {
   font-size: 0.8rem;
-  padding-top: 0rem;
   padding-left: 20%;
-  padding-bottom: 0;
 }
 
-hr {
-  background-color: red;
-  height: 2px;
-  margin: 3rem 9.5rem;
+.enlaces_bibliografia{
+  width: 90% ;
+  display: inline-block;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-  
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  a[class^="share-network-"] {
-    flex: none;
-    color: #FFFFFF;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
-  }
+a[class^="share-network-"] {
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
 
-  a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
-    color:#FFFFFF
-  }
+a[class^="share-network-"] .fah {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
+}
 
-  a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
-    color: #FFFFFF;
-  }
+a[class^="share-network-"] span {
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
+}
 </style>

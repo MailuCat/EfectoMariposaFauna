@@ -74,9 +74,15 @@ export default {
 
 }
 
-h1, h2, h3,  p{
+h1, h2,  p{
     color: #3f3f42;
+    text-rendering: optimizeLegibility;
 }
+
+h3{
+    color:teal;
+}
+
 
 h1 {
     font-size: 2rem;
@@ -86,6 +92,7 @@ h1 {
     margin-block:0.67em;
     margin-inline: 0px;
     color: teal;
+    
 }
 
 .foto{
@@ -93,6 +100,18 @@ h1 {
   margin-right: 2rem;
   margin-top: 6px;
 }
+
+.fotonota{
+  border-radius: 10px;
+}
+
+.bajada{
+     font-size: 1.2em; 
+     font-family: 'Libre Bodoni', serif;;  
+
+}
+
+
 
 a {
     text-decoration: none;

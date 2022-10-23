@@ -104,8 +104,9 @@ export default {
         margin-right: 4px;
 
     }
+    
     .tarjeta {
-        height: 210px;
+        height: 230px;
     }
 }
 

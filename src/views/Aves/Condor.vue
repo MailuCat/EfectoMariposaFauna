@@ -5,7 +5,7 @@
       <title>Aves de Chile: Cóndor</title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">
+          <h1>
             Cóndor (Vultur gryphus)
           </h1>
           <p class="fecha">6 de junio 2022</p>
@@ -155,17 +155,16 @@
           considerar sus hábitos de localización de lugares de descanso y
           nidificación para diseñar estrategias de conservación exitosas.
         </p>
-      </v-row>
 
-      <h3 class="mb-3 fuente">Enlaces a las fuentes:</h3>
+      <h3 class="enlaces_bibliografia">Enlaces a las fuentes</h3>
 
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a href="https://digital.csic.es/bitstream/10261/65935/1/condor.pdf">
           Donázar JA, Feijóo JE (2002). Social structure of Andean condor
           roosts: influence of sex, age, and season.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.researchgate.net/profile/Sergio-Lambertucci/publication/230322442_Breeding_behavior_of_a_pair_of_free-living_Andean_Condors/links/5c754742458515831f7280f3/Breeding-behavior-of-a-pair-of-free-living-Andean-Condors.pdf?origin=publication_detail"
         >
@@ -173,7 +172,7 @@
           free living Andean Condors.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067304"
         >
@@ -181,7 +180,7 @@
           Andean condors protect the birds from weather and predators.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="http://www.scielo.org.ar/scielo.php?pid=S0073-34072014000200005&script=sci_abstract&tlng=en"
         >
@@ -191,6 +190,7 @@
           pp.93-95. ISSN 0073-3407.
         </a>
       </p>
+      </v-row>
     </v-container>
     <div class="share-network-list">
       <ShareNetwork
@@ -305,12 +305,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -325,33 +320,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-.fecha {
-  text-align: center;
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -389,3 +382,5 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+
+

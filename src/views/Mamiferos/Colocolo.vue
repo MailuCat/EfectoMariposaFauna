@@ -5,8 +5,8 @@
     <v-container>
         <v-row class="justify-center">
             <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-                <h1 class="titulo">Gato Colocolo (Leopardus colocolo)</h1>
-                <p class="fecha">1 de febrero 2022</p>
+                <h1>Gato Colocolo (Leopardus colocolo)</h1>
+                <p>1 de febrero 2022</p>
             </v-col>
         </v-row>
         <v-row class="justify-center">
@@ -42,7 +42,7 @@
                 cuidarlos durante los primeros meses, la madre ocupa pequeñas cuevas
                 camufladas en las confecciones camas de hierba.
             </p>
-          <h2>Utiliza sus heces para el marcaje y medio de comunicación con sus pares</h2>
+          <h2 class="pb-3">Utiliza sus heces para el marcaje y medio de comunicación con sus pares</h2>
             <p>
                 Tiene un comportamiento de marcaje para lo que rocía orina en la hoja
                 de plantas. Hay registro que una de las plantas de gran diámetro que
@@ -63,12 +63,12 @@
                   al igual que las muertes en carretera.
             </p>
 
-                    <h3 class="ma-4">Enlace a fuentes:</h3>
-                    <p class="fuente">
+                    <h3 class="enlaces_bibliografia">Enlace a fuentes:</h3>
+                    <p class="enlaces_bibliografia">
                         <a href="https://dialnet.unirioja.es/descarga/articulo/5524083.pdf">Revisión actualizada sobre la biodiversidad y consservación de los
                             felinos silvestres de Chile</a>
                     </p>
-                    <p class="fuente">
+                    <p class="enlaces_bibliografia">
                         <a href="https://www.researchgate.net/profile/Fabian-Jaksic/publication/348977465_Los_carnivoros_de_Chile_primera_edicion_Ediciones_CASEBFlora_Fauna_Santiago_257_pp/links/6165d6713851f95994f26b39/Los-carnivoros-de-Chile-primera-edicion-Ediciones-CASEB-Flora-Fauna-Santiago-257-pp.pdf#page=13&zoom=auto,-294,402">Los carnívoros de Chile</a>
                     </p>
         </v-row>
@@ -181,87 +181,81 @@ export default {
     },
 };
 </script>
-
 <style>
-.fecha {
-    text-align: center;
-}
-
-.v-application a {
-    color: #3f3f42;
-    margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
-    .fotonota {
-        width: 50px;
-    }
+  .fotonota {
+    width: 50px;
+  }
 
-    .texto {
-        padding: 2rem 3rem 2.5rem 3rem;
-        text-align: justify;
-    }
+  .texto {
+    padding: 2rem 3rem 2.5rem 3rem;
+    text-align: justify;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .texto {
-        padding: 2rem 9rem 2.5rem 9rem;
-        text-align: justify;
-    }
-}
-
-p.foto_texto {
-    font-size: 0.8rem;
-    padding-top: 0rem;
-    padding-left: 20%;
-    padding-bottom: 0;
+  .texto {
+    padding: 2rem 9.5rem 2.5rem 9rem;
+    text-align: justify;
+  }
 }
 
 hr {
-    background-color: gray;
-    height: 2px;
-    margin-left: 9rem;
-    margin-right: 9.5rem;
-    margin-top: 3rem;
+  background-color: gray;
+  height: 2px;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-    margin-left: 9rem;
-    text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
 }
 
 a[class^="share-network-"] {
-    flex: none;
-    color: #FFFFFF;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
 }
 
 a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
 }
 
 a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
 }
 </style>
+

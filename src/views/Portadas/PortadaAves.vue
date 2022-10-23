@@ -73,7 +73,4 @@ export default {
 </script>
 
 <style>
-.aves{
-    font-size: 1.2em;
-}
 </style>

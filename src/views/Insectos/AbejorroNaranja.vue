@@ -8,8 +8,8 @@
     <v-container>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Abejorro Naranja (Bombus Dahlbomii)</h1>
-          <p class="fecha">13 de diciembre 2021</p>
+          <h1>Abejorro Naranja (Bombus Dahlbomii)</h1>
+          <p>13 de diciembre 2021</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -26,9 +26,7 @@
           Foto: David Selbert, derechos libres.
         </p>
       </v-row>
-      <v-row class="justify-center">
       <hr class="mb-5" />
-      </v-row>
       <v-row class="texto">
         <v-col>
           <p>
@@ -69,23 +67,21 @@
             Cuando la abeja ya es adulta, permanecen un día en el nido y luego
             asumen las funciones que la naturaleza le asignó.
           </p>
-          <h3 class="ma-4">Fuentes:</h3>
+          <h3 class="enlaces_bibliografia">Enlaces a fuentes</h3>
           <p>
-            <a
+            <a class="enlaces_bibliografia"
               href="https://dialnet.unirioja.es/servlet/articulo?codigo=5523733"
               >La difícil situación del abejorro más austral del mundo (Bombus
-              Dahlbomii Guérin-Méneville, 1835) de </a
-            >José Montalvá. 2012.
+              Dahlbomii Guérin-Méneville, 1835) de José Montalvá. 2012.</a>
           </p>
 
           <p>
-            <a
+            <a class="enlaces_bibliografia"
               href="https://books.google.es/books?id=ueUmEAAAQBAJ&lpg=PT8&ots=4rddGv7NOS&dq=Comportamiento%20Social%20de%20la%20Fauna%20Nativa%20Chilena&lr&hl=es&pg=PT8#v=onepage&q=Comportamiento%20Social%20de%20la%20Fauna%20Nativa%20Chilena&f=false"
-              >Comportamiento social de la fauna nativa de Chile, </a
-            >Luis A. Ebensperger y Antonieta Labra. 2021.
+              >Comportamiento social de la fauna nativa de Chile, Luis A. Ebensperger y Antonieta Labra. 2021 </a>
           </p>
           <p>
-            <a href="https://www.iucnredlist.org/es/species/15088/78321302">
+            <a class="enlaces_bibliografia" href="https://www.iucnredlist.org/es/species/15088/78321302">
               Abejorro Naranja. Lista Roja de Especies Amenazadas de la Unión
               Internacional para la Conservación de la Naturaleza (UICN).</a
             >
@@ -211,8 +207,8 @@ export default {
 
 };
 </script>
-
 <style>
+
 @media screen and (max-width: 1200px) {
   .fotonota {
     width: 50px;
@@ -226,59 +222,65 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-p.foto_texto {
-  font-size: 0.6rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90% ;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
+}
 
 .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  a[class^="share-network-"] {
-    flex: none;
-    color: #FFFFFF;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
-  }
+a[class^="share-network-"] {
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
 
-  a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
-  }
+a[class^="share-network-"] .fah {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
+}
 
-  a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
-  }
-  </style>
+a[class^="share-network-"] span {
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
+}
+</style>

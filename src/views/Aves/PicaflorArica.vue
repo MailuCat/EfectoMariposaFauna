@@ -8,8 +8,8 @@
     <v-container class="pa-0">
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Picaflor de Arica (Eulidia yarrellii)</h1>
-          <p class="fecha">8 de febrero 2022</p>
+          <h1>Picaflor de Arica (Eulidia yarrellii)</h1>
+          <p>8 de febrero 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -167,36 +167,30 @@
           interior, compuesta por el chañar (Geoffroea decorticans) y el
           algarrobo (Prosopis alba), cuyos relictos no contaban con protección.
         </p>
-
-        <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h3>Enlaces a las fuentes:</h3>
-        </v-col>
-
-        <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <a
+        
+        <div>
+        <h3 class="enlaces_bibliografia">Enlaces a las fuentes</h3>
+        
+          <a class="enlaces_bibliografia"
             href="http://especies.mma.gob.cl/CNMWeb/Web/WebCiudadana/ficha_indepen.aspx?EspecieId=6&Version=1"
           >
             "Especie Piclafor de Arica, Ministerio del Medio Ambientel".
           </a>
-        </v-col>
 
-        <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <a
+          <a class="enlaces_bibliografia"
             href="https://www.iucnredlist.org/species/22688244/181468935#population"
           >
             Picaflor de Arica.Lista Roja UICN.
           </a>
-        </v-col>
 
-        <v-col>
-          <a
+          <a class="enlaces_bibliografia"
             href="https://educacion.mma.gob.cl/wp-content/uploads/2015/09/PicaflorDeArica_2013.pdf"
           >
             Picaflor de Arica. Clasificación de especies del Ministerio del
             Medio Ambiente.
           </a>
-        </v-col>
-      </v-row>
+        </div>
+       </v-row>
     </v-container>
     <div class="share-network-list">
       <ShareNetwork
@@ -314,12 +308,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -342,16 +331,23 @@ export default {
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
 p.foto_texto {
   font-size: 0.8rem;
-  padding-top: 0rem;
   padding-left: 20%;
-  padding-bottom: 0;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -389,3 +385,5 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+
+

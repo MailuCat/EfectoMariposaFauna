@@ -4,8 +4,8 @@
     <v-container>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Huemul (Hippocalemus bisulcus)</h1>
-          <p class="fecha">4 de junio 2022</p>
+          <h1>Huemul (Hippocalemus bisulcus)</h1>
+          <p>4 de junio 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -159,22 +159,22 @@
           territorios que ocupa es vital para implementar políticas de
           conservación exitosa capaces de evitar la desaparición de este ciervo.
         </p>
-        <h3 class="ma-4">Enlace a los documentos fuentes:</h3>
-        <p class="fuente">
+        <h3 class="enlaces_bibliografia">Enlace a las fuentes</h3>
+        <p class="enlaces_bibliografia">
           <a
             href="https://www.researchgate.net/publication/260267282_Social_Organization_and_Mating_Strategy_of_the_Huemul_Hippocamelus_bisulcus"
             >Social Organization and mating strategy of the huemules. Autor:
             Tony Povilitis.1983.</a
           >
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a
             href="https://www.semanticscholar.org/paper/ON-HABITAT-USE-A-N-D-SOCIAL-ORGANIZATION-OF-A-IN-Frid/dd7ccd39e067b1bad73d75ef698c792e8774d052"
             >Observation on habitat use and social organization of a huemul
             costal population en Chile.Autor: Alejandro Frid. 1992.</a
           >
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a href="https://scielo.conicyt.cl/pdf/ainpat/v44n1/art03.pdf"
             >Social ecology of the huemul at Torres del Paine. Autores: Gladys
             Garai, Isaac Ortega y Oscar Guineo. 2016.</a
@@ -302,16 +302,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.fecha {
-  text-align: center;
-}
-
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -326,29 +317,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -386,3 +379,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

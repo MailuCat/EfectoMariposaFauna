@@ -7,10 +7,10 @@
       </title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">
+          <h1>
             Ranita de Darwin del Sur (Rhinoderma darwinii)
           </h1>
-          <p class="fecha">15 de marzo 2022</p>
+          <p>15 de marzo 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -141,10 +141,10 @@
           más sobre su comportamiento y al mismo tiempo intentar salvarlos de la
           extinción.
         </p>
-      </v-row>
-      <h3 class="mb-3 fuente">Enlace a fuentes:</h3>
 
-      <p class="fuente">
+      <h3 class="enlaces_bibliografia">Enlace a fuentes</h3>
+
+      <p class="enlaces_bibliografia">
         <a
           href="http://www.cordilleradenahuelbuta.cl/portal/wp-content/uploads/2020/04/BNN-52-Valenzuela-S%C3%A1nchez-et-al.pdf"
         >
@@ -153,14 +153,14 @@
           2014-2018.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.iucnredlist.org/es/species/19513/79809372#assessment-information"
         >
           Rhinoderma darwinii. Red List IUCN.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.estrategiarhinoderma.org/_files/ugd/5a50fd_b63c38799199410285c759977d196cd1.pdf"
         >
@@ -168,6 +168,7 @@
           coexistence of paternal care and male territoriality
         </a>
       </p>
+      </v-row>
     </v-container>
     <div class="share-network-list">
       <ShareNetwork
@@ -285,12 +286,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -305,33 +301,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-.fecha {
-  text-align: center;
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90% ;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -369,3 +363,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

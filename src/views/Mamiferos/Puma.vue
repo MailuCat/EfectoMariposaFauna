@@ -5,8 +5,8 @@
     <v-container>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Puma (Puma Concolor)</h1>
-          <p class="fecha">17 de marzo 2022</p>
+          <h1>Puma (Puma Concolor)</h1>
+          <p>17 de marzo 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -126,21 +126,20 @@
           subsistencia de esta especie.
         </p>
 
-        <h3 class="ma-4">Enlace a fuentes:</h3>
-
-        <a
+        <h3 class="enlaces_bibliografia" >Enlaces a las fuentes</h3>
+        <a class="enlaces_bibliografia"
           href="https://www.researchgate.net/profile/Nicolas-Lagos-3/publication/342501414_Primeros_registros_de_gato_andino_Leopardus_jacobita_en_el_Parque_Nacional_Volcan_Isluga_y_Parque_Nacional_Salar_de_Huasco_Region_de_Tarapaca/links/5ef76720a6fdcc4ca433d352/Primeros-registros-de-gato-andino-Leopardus-jacobita-en-el-Parque-Nacional-Volcan-Isluga-y-Parque-Nacional-Salar-de-Huasco-Region-de-Tarapaca.pdf#page=39"
           >Sobrevivencia de crías de puma (Puma concolor) hasta edad de
           dispersión en la Reserva Nacional Río los Cipreses, Región del
           Libertador Bernardo O’Higgins</a
         >
 
-        <a
+        <a class="enlaces_bibliografia"
           href="https://www.researchgate.net/profile/Fabian-Jaksic/publication/348977465_Los_carnivoros_de_Chile_primera_edicion_Ediciones_CASEBFlora_Fauna_Santiago_257_pp/links/6165d6713851f95994f26b39/Los-carnivoros-de-Chile-primera-edicion-Ediciones-CASEB-Flora-Fauna-Santiago-257-pp.pdf"
           >Los carnívoros de Chile</a
         >
-        <hr />
-        <a href="https://dialnet.unirioja.es/descarga/articulo/5524083.pdf"
+      
+        <a class="enlaces_bibliografia" href="https://dialnet.unirioja.es/descarga/articulo/5524083.pdf"
           >Revisión actualizada sobre la biodiversidad y conservación de los
           felinos silvestres de Chile.</a
         >
@@ -259,15 +258,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.fecha {
-  text-align: center;
-}
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -282,24 +273,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
+}
+
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -337,3 +335,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

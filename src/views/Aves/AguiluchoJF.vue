@@ -3,10 +3,9 @@
     <Menu />
     <v-container>
       <title>Aves de Chile: Aguilucho de Juan Fernández</title>
-      <p>(Geranoaetus polyosoma exsul)</p>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">
+          <h1>
             Aguilucho de Juan Fernández (Geranoaetus polyosoma exsul)
           </h1>
           <p class="fecha">14 de febrero 2022</p>
@@ -80,11 +79,10 @@
           República de Chile, 1996) porque es considerada beneficiosa para la
           actividad silvoagropecuaria y el equilibrio del ecosistema.
         </p>
-      </v-row>
+    
+      <h3 class="enlaces_bibliografia">Enlaces a las fuentes:</h3>
 
-      <h3 class="mb-3 fuente">Enlaces a las fuentes:</h3>
-
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://clasificacionespecies.mma.gob.cl/wp-content/uploads/2021/03/Geranoaetus_polyosoma_exsul_17RCE_FINAL.pdf"
         >
@@ -92,7 +90,7 @@
           del Medio Ambiente de Chile.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia ">
         <a
           href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.507.7756&rep=rep1&type=pdf"
         >
@@ -101,6 +99,7 @@
           Römer y Roberto P. Schlatter.
         </a>
       </p>
+      </v-row>
     </v-container>
     <div class="share-network-list">
       <ShareNetwork
@@ -219,12 +218,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -239,33 +233,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-.fecha {
-  text-align: center;
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -303,3 +295,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

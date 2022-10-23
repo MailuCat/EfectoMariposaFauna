@@ -6,7 +6,6 @@ import store from './store'
 import VueSocialSharing from 'vue-social-sharing'
 import vuetify from '@/plugins/vuetify' // path to vuetify export
 import Vuetify from 'vuetify'
-import '@babel/polyfill'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 

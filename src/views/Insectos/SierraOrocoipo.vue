@@ -8,10 +8,10 @@
       </title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">
+          <h1>
             Sierra del Orocoipo(Callisphyris ficheti)
           </h1>
-          <p class="fecha">17 de febrero 2022</p>
+          <p>17 de febrero 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -30,7 +30,7 @@
           </a>
         </p>
       </v-row>
-      <hr class="mb-5" />
+      <hr class="mb-5"/>
       <v-row class="texto">
         <p>
           Las hembras deposita sus huevos en la parte más gruesa del Orocoipo
@@ -77,10 +77,10 @@
           Incluso Codelco impacta este entorno con un ferrocarril que transita 6
           veces al día transportando mineral.
         </p>
-      </v-row>
-      <h3 class="mb-3 fuente">Fuentes:</h3>
+  
+      <h3 class="enlaces_bibliografia">Enlaces a las fuentes</h3>
 
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://clasificacionespecies.mma.gob.cl/wp-content/uploads/2019/10/Callisphyris_ficheti_11RCE_03_PAC.pdf"
         >
@@ -88,6 +88,7 @@
           Ministerio del Medio Ambiente.
         </a>
       </p>
+      </v-row>
     </v-container>
     <div class="share-network-list">
       <ShareNetwork
@@ -205,12 +206,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -225,33 +221,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-.fecha {
-  text-align: center;
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90% ;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {

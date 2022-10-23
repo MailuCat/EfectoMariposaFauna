@@ -5,8 +5,8 @@
     <v-container>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">Gato Andino(Leopardus jacobita)</h1>
-          <p class="fecha">5 de abril 2022</p>
+          <h1>Gato Andino(Leopardus jacobita)</h1>
+          <p>5 de abril 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -67,8 +67,8 @@
           octubre y abril, dando a luz alrededor de 2 crías por camada.
         </p>
 
-        <h3 class="ma-4">Enlaces a las fuentes:</h3>
-        <p class="fuente">
+        <h3 class="enlaces_bibliografia">Enlaces a las fuentes</h3>
+        <p class="enlaces_bibliografia">
           <a
             href="https://www.researchgate.net/publication/264600726_Revision_actualizada_sobre_la_biodiversidad_y_conservacion_de_los_felinos_silvestres_de_Chile"
             >Revisión actualizada sobre la biodiversidad y conservasión
@@ -76,7 +76,7 @@
             silvestres de Chile.</a
           >
         </p>
-        <p class="fuente">
+        <p class="enlaces_bibliografia">
           <a
             href="https://snifa.sma.gob.cl/General/DescargarInformeSeguimiento/227878"
           >
@@ -196,15 +196,7 @@ export default {
   },
 };
 </script>
-
 <style>
-.fecha {
-  text-align: center;
-}
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -219,28 +211,31 @@ export default {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
+}
+
+.enlaces_bibliografia{
+  width: 90%;
+  display: inline-block;
+}
+
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
 }
 
 .share-network-list {
@@ -278,3 +273,4 @@ a[class^="share-network-"] span {
   font-weight: 500;
 }
 </style>
+

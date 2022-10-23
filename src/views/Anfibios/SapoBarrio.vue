@@ -7,10 +7,10 @@
       </title>
       <v-row class="justify-center">
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-          <h1 class="titulo">
+          <h1>
             Sapo de pecho espinoso de Barrio (Alsodes barroi)
           </h1>
-          <p class="fecha">20 de febrero 2022</p>
+          <p>20 de febrero 2022</p>
         </v-col>
       </v-row>
       <v-row class="justify-center">
@@ -63,10 +63,10 @@
           actualmente son la industria maderera, la ganadería y los cada vez más
           frecuentes incendios forestales.
         </p>
-      </v-row>
-      <h3 class="mb-3 fuente">Enlace a fuentes:</h3>
 
-      <p class="fuente">
+      <h3 class="enlaces_bibliografia">Enlace a fuentes</h3>
+
+      <p class="enlaces_bibliografia">
         <a
           href="https://www.biodiversnathist.com/index.php/bnh/article/view/51"
         >
@@ -75,12 +75,12 @@
           (Amphibia, Anura, Alsodidae) in the Nahuelbuta Range, southern Chile.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a href="https://www.iucnredlist.org/species/928/79808332#population">
           Cabreria Spiny-chest Frog. Red List IUCN.
         </a>
       </p>
-      <p class="fuente">
+      <p class="enlaces_bibliografia">
         <a
           href="https://clasificacionespecies.mma.gob.cl/wp-content/uploads/2019/10/Alsodes_barrioi.pdf"
         >
@@ -88,6 +88,7 @@
           Ministerio del Medio Ambiente.
         </a>
       </p>
+      </v-row>
     </v-container>
      <div class="share-network-list">
       <ShareNetwork
@@ -210,12 +211,7 @@ metaInfo() {
 
 };
 </script>
-
 <style>
-.v-application a {
-  color: #3f3f42;
-  margin: 4px;
-}
 
 @media screen and (max-width: 1200px) {
   .fotonota {
@@ -230,70 +226,65 @@ metaInfo() {
 
 @media screen and (min-width: 1200px) {
   .texto {
-    padding: 2rem 9rem 2.5rem 9rem;
+    padding: 2rem 9.5rem 2.5rem 9rem;
     text-align: justify;
   }
-}
-
-.fecha {
-  text-align: center;
-}
-
-p.foto_texto {
-  font-size: 0.8rem;
-  padding-top: 0rem;
-  padding-left: 20%;
-  padding-bottom: 0;
 }
 
 hr {
   background-color: gray;
   height: 2px;
-  margin-left: 9rem;
-  margin-right: 9.5rem;
-  margin-top: 3rem;
+  margin: 3rem 9.5rem auto 9rem;
 }
 
-.fuente {
-  margin-left: 9rem;
-  text-align: justify;
+p.foto_texto {
+  font-size: 0.8rem;
+  padding-left: 20%;
 }
 
+.enlaces_bibliografia{
+  width: 90% ;
+  display: inline-block;
+}
 
-
+.v-application a {
+  color: #3f3f42;
+  margin: 4px;
+  
+}
 
 .share-network-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 1000px;
-    margin: auto;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
 
-  a[class^="share-network-"] {
-    flex: none;
-    color: #FFFFFF;
-    background-color: #333;
-    border-radius: 3px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    cursor: pointer;
-    margin: 0 10px 10px 0;
-  }
+a[class^="share-network-"] {
+  flex: none;
+  color: #ffffff;
+  background-color: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 10px 10px 0;
+}
 
-  a[class^="share-network-"] .fah {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    flex: 0 1 auto;
-  }
+a[class^="share-network-"] .fah {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  flex: 0 1 auto;
+}
 
-  a[class^="share-network-"] span {
-    padding: 0 10px;
-    flex: 1 1 0%;
-    font-weight: 500;
-  }
+a[class^="share-network-"] span {
+  padding: 0 10px;
+  flex: 1 1 0%;
+  font-weight: 500;
+}
 </style>
