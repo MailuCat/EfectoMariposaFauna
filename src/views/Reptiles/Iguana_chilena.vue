@@ -9,6 +9,7 @@
         <v-col xs="12" sm="12" md="12" lg="12" xl="12">
           <h1>"Iguana Chilena (Callopistes maculatus)"</h1>
           <p>22 de febrero 2022</p>
+          
         </v-col>
       </v-row>
       <v-row class="justify-center">

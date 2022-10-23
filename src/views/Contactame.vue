@@ -8,7 +8,7 @@
                 <h1>Contacto con Efecto Mariposa</h1>
             </v-col>
             <v-col sx="12" sm="12" md="12" lg="8">
-                <v-form action="https://mail.google.com/mail/u/0/#inbox">
+                <v-form action="mailto:f.tramites@gmail.com">
                     <v-text-field type="text"  label="Nombre"  v-model="name"></v-text-field>
                     <v-text-field type="email"  label="Correo electrónico" v-model="mail" ></v-text-field>
                      <v-textarea type="text" label="Mensaje" v-model="message"></v-textarea>
@@ -27,7 +27,7 @@
 import Menu from "@/components/Menu.vue";
 
 export default {
-    name: 'contacto',
+    name: 'Contactame',
      components: {
         Menu,
      },

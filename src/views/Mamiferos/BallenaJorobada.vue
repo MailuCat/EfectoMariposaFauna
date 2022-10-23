@@ -239,10 +239,6 @@ p.foto_texto {
  
 }
 
-h1{
-    font-family: 'Libre Bodoni', serif;
-}
-
 .enlaces_bibliografia{
   width: 90%;
   display: inline-block;

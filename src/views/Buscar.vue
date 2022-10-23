@@ -4,8 +4,7 @@
      <Menu />
     <ais-index app-id="AGFDL4Y3YR" api-key="8f1a05291908e51a0887fd503604201d" index-name="leer">
 
-        <ais-search-box placeholder="Escribe aquí" class="searchbox"/>
-
+        <ais-search-box placeholder="Escribe aquí"/>
         <div class="container">
             <ais-results>
 
@@ -68,7 +67,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
 
-.search-result h2 {
+h2 {
     font-family: "Libre Bodoni", serif;
     padding: 20px;
 }
@@ -80,7 +79,7 @@ export default {
 
 .search-result img {
     max-width: 100%;
-    height: auto;
+    height: 70px;
     margin: 20px;
 }
 
@@ -104,32 +103,23 @@ export default {
     padding: 10px 20px 20px;
     width: 25%;
     border: solid 1px #EEE;
-    box-shadow: 0 0 3px #f6f6f6;
+    box-shadow: 0 0 3px teal;
     position: relative;
     border-radius: 3px;
     min-width: 220px;
-    background: rgb(255, 255, 255);
-
+    background: #29A0B1;
     display: inline-block;
     transition: all .5s;
 }
 
-.ais-highlight-highlighted {
-    background: cyan;
-    font-style: normal;
-}
-
 .ais-input {
-    width: 50%;
-    outline: none;
+    width: 25%;
     font-size: 15px;
-    padding: 7px;
     box-sizing: border-box;
-    border: 2px solid lightgrey;
-    border-radius: 2px;
-    margin: 50px 50px;
-    margin-right: 50px;
-    padding-left: 4em;
+    padding: 5px;
+    border: 2px solid #29A0B1;
+    border-radius: 20px;
+    margin: 67px 90px;
 }
 
 .ais-search-box__submit,

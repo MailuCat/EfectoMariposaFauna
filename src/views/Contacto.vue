@@ -3,9 +3,9 @@
     <Menu />
         <v-row>
             <v-col sx="12" sm="12" md="12" lg="4">
-                <h1>Contacto</h1>
+                <h1 class="ml-12">Contacto</h1>
             </v-col>
-            <v-col  sx="12" sm="12" md="12" lg="8">
+            <v-col class="mt-12"  sx="12" sm="12" md="12" lg="8">
                     <v-form action="https://formsubmit.co/f.tramites@gmail.com" method="POST">
                         <v-text-field type="text" name="name" label="Nombre"></v-text-field>
                         <v-text-field type="email" name="email" label="Correo electrónico"></v-text-field>
