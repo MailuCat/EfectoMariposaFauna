@@ -14,7 +14,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="https://inaturalist-open-data.s3.amazonaws.com/photos/84006729/large.jpg"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_Picaflor_Arica.jpg"
           max-height="400"
           max-width="800"
           class="fotonota"
@@ -239,7 +239,7 @@ export default {
         // image must be an absolute path
         {
           name: "twitter:image",
-          content: " ",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_Picaflor_Arica.jpg",
         },
         // Facebook OpenGraph
         {
@@ -250,7 +250,7 @@ export default {
         { property: "og:type", content: "website" },
         {
           property: "og:image",
-          content: "",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_Picaflor_Arica.jpg",
         },
         {
           property: "og:description",

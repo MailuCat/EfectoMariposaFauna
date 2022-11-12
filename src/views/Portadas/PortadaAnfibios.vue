@@ -46,7 +46,7 @@ export default {
             },
             {
                 title: "Sapo hermoso (Telmatobufo venustus)",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/179669364/original.jpeg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_sapo_hermoso1.jpeg",
                 subtitle: "",
                 path: '/sapohermoso',
             },

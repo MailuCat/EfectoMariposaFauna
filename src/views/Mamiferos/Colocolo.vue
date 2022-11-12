@@ -10,7 +10,7 @@
             </v-col>
         </v-row>
         <v-row class="justify-center">
-            <v-img src="https://inaturalist-open-data.s3.amazonaws.com/photos/156027880/large.jpg" max-height="400" max-width="800" class="fotonota" alt="Gato Colocolo (Leopardus colocolo)"></v-img>
+            <v-img src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_colo_colo.jpg" max-height="400" max-width="800" class="fotonota" alt="Gato Colocolo (Leopardus colocolo)"></v-img>
         </v-row>
         <v-row class="justify-start">
             <p class="justify-start foto_texto"></p>
@@ -110,7 +110,7 @@ export default {
                 // image must be an absolute path
                 {
                     name: "twitter:image",
-                    content: "",
+                    content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_colo_colo.jpg",
                 },
                 // Facebook OpenGraph
                 {
@@ -127,7 +127,7 @@ export default {
                 },
                 {
                     property: "og:image",
-                    content: "",
+                    content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_colo_colo.jpg",
                 },
                 {
                     property: "og:description",

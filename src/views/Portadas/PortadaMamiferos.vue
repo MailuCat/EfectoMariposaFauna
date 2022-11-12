@@ -39,13 +39,13 @@ export default {
         cards: [ 
             {
                 title: "Ballena Jorobada (Vicugna vicugna)",
-                src: "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_ballena_jorobada.jpg",
                 subtitle: "Megaptera novaeangliae",
                 path: '/jorobada',
             }, 
              {
                 title: "La Vicuña (Vicugna vicugna)",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/4525406/original.jpeg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_vicuna.jpeg",
                 subtitle: "Caracterizada por machos dominantes y el pelaje más suave, la vicuña es una especie vulnerable",
                 path: '/vicuna',
             },
@@ -53,7 +53,7 @@ export default {
             
             {
                 title: "Llama (Llama glama)",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/72467806/original.jpg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_llama.jpg",
                 subtitle: "El camélido más grande sur América es el reslutado de la domesticación del guanaco",
                 path: '/llama',
             },
@@ -61,7 +61,7 @@ export default {
             
             {
                 title: "Huemul (Hippocalemus bisulcus)",
-                src:"https://upload.wikimedia.org/wikipedia/commons/a/a1/Huemul_Reserva_Cerro_Castillo_3.jpg",
+                src:"https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_Huemul.jpg",
                 subtitle: "La cordillera de la costa de la Patagonia actualmente es su refugio a pesar de la crudeza del clima",
                 path: '/huemul',
             },
@@ -73,7 +73,7 @@ export default {
             },
             {
                 title: "Zorro Chilote (Lycalopex fulvipes)",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/12008950/medium.jpg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_zorro_chilote.jpg",
                 subtitle: "Un canino que comparte en lugar de defender y monopolizar el uso del territorio",
                 path: '/zorrochilote',
             },
@@ -85,26 +85,26 @@ export default {
                 path: '/delfinnarizbotella',
             },
             {
-                title: " Gúiña (Leopardus guigna)",
+                title: "Gúiña (Leopardus guigna)",
                 src: require('@/assets/guiña.jpg'),
                 subtitle: "El felino más pequeño de America",
                 path: '/guina',
             },
             {
                 title: "Puma (Puma Cocolor)",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/13838752/medium.jpeg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_puma.jpeg",
                 subtitle: "",
                 path: '/puma',
             },
             {
                 title: "Gato Colocolo (Leopardus colocolo)",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/156027880/large.jpg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_colo_colo.jpg",
                 subtitle: "",
                 path: '/colocolo',
             },  
             {
                 title: "Gato Andino(Leopardus jacobitus)",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/152470757/original.jpeg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_andino1.jpeg",
                 subtitle: "",
                 path: '/gatoandino',
             },

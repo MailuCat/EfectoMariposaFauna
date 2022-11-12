@@ -1,7 +1,7 @@
  <template class="found">
   <div class="found">
      <v-row class="justify-center">
-            <v-img src="https://betanews.com/wp-content/uploads/2016/01/Error-404-dark-clouds-warning-page-not-found-e1452851329452.jpg" max-height="400" max-width="800" class="fotonota"></v-img>
+            <v-img src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_error404.jpg" max-height="400" max-width="800" class="fotonota"></v-img>
       </v-row>
     </div>
  </template>

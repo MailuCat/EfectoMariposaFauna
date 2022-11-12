@@ -12,7 +12,7 @@
         </v-col>
       </v-row>
       <v-row class="justify-center">
-        <v-img src="" max-height="400" max-width="800" class="fotonota"></v-img>
+        <v-img src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_cenemalobus_pegnai.jpg" max-height="400" max-width="800" class="fotonota"></v-img>
       </v-row>
 
       <hr class="mb-5" />

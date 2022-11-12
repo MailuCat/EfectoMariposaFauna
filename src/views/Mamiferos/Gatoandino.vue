@@ -11,7 +11,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="https://inaturalist-open-data.s3.amazonaws.com/photos/152470757/original.jpeg"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_andino1.jpeg"
           max-height="400"
           max-width="800"
           class="fotonota"
@@ -130,7 +130,7 @@ export default {
         // image must be an absolute path
         {
           name: "twitter:image",
-          content: " ",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_andino1.jpeg",
         },
         // Facebook OpenGraph
         {
@@ -141,7 +141,7 @@ export default {
         { property: "og:type", content: "website" },
         {
           property: "og:image",
-          content: "",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_gato_andino1.jpeg",
         },
         {
           property: "og:description",

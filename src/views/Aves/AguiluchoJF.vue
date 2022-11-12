@@ -13,7 +13,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="hotos/36177952/large.jhttps://inaturalist-open-data.s3.amazonaws.com/ppg"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_aguilucho_Juan_Fernandez.jpg"
           max-height="400"
           max-width="800"
           class="fotonota"
@@ -149,7 +149,7 @@ export default {
         // image must be an absolute path
         {
           name: "twitter:image",
-          content: "",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_aguilucho_Juan_Fernandez.jpg",
         },
         // Facebook OpenGraph
         {
@@ -160,7 +160,7 @@ export default {
         { property: "og:type", content: "website" },
         {
           property: "0g:image",
-          content: " ",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_aguilucho_Juan_Fernandez.jpg",
         },
         {
           property: "og:description",

@@ -110,7 +110,9 @@ h1 {
      font-family: 'Libre Bodoni', serif;;  
 
 }
-
+v-application a {
+    color: white;
+}
 a {
     text-decoration: none;
 }

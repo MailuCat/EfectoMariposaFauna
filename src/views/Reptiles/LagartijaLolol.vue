@@ -11,7 +11,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="https://inaturalist-open-data.s3.amazonaws.com/photos/100852116/original.jpg"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_lagartija_lolol.jpg"
           max-height="400"
           max-width="600"
           class="foto de Liolaemus confusus"
@@ -129,7 +129,7 @@ export default {
         {
           name: "twitter:image",
           content:
-            " ",
+            "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_lagartija_lolol.jpg",
         },
         // Facebook OpenGraph
         {
@@ -141,7 +141,7 @@ export default {
         {
           property: "og:image",
           content:
-            "",
+            "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_lagartija_lolol.jpg",
         },
         {
           property: "og:description",

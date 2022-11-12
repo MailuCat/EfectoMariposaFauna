@@ -15,7 +15,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="https://inaturalist-open-data.s3.amazonaws.com/photos/179669364/original.jpeg"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_sapo_hermoso1.jpeg"
           max-height="400"
           max-width="800"
           class="fotonota"
@@ -144,7 +144,7 @@ export default {
         {
           name: "twitter:image",
           content:
-            "https://inaturalist-open-data.s3.amazonaws.com/photos/179669364/original.jpeg",
+            "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_sapo_hermoso1.jpeg",
         },
         // Facebook OpenGraph
         {
@@ -156,7 +156,7 @@ export default {
         {
           property: "og:image",
           content:
-            "https://inaturalist-open-data.s3.amazonaws.com/photos/179669364/original.jpeg",
+            "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_sapo_hermoso1.jpeg",
         },
         {
           property: "og:description",

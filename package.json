@@ -16,6 +16,7 @@
     "roboto-fontface": "*",
     "vue": "^2.6.11",
     "vue-instantsearch": "^1.7.0",
+    "vue-meta": "^2.4.0",
     "vue-router": "^3.2.0",
     "vue-social-sharing": "^3.0.9",
     "vue-videobg": "^2.0.0",

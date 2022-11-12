@@ -13,7 +13,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="c"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_condor.jpeg"
           max-height="400"
           max-width="800"
           class="fotonota"
@@ -239,7 +239,7 @@ export default {
         // image must be an absolute path
         {
           name: "twitter:image",
-          content: "",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_condor.jpeg",
         },
         // Facebook OpenGraph
         {
@@ -250,7 +250,7 @@ export default {
         { property: "og:type", content: "website" },
         {
           property: "0g:image",
-          content: " ",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_condor.jpeg",
         },
         {
           property: "og:description",

@@ -11,7 +11,7 @@
             </v-col>
         </v-row>
         <v-row class="justify-center">
-            <v-img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg" max-height="400" max-width="800" class="fotonota" alt="Gato Colocolo (Leopardus colocolo)"></v-img>
+            <v-img src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_ballena_jorobada.jpg" max-height="400" max-width="800" class="fotonota" alt="Gato Colocolo (Leopardus colocolo)"></v-img>
         </v-row>
         <v-row class="justify-start">
             <p class="justify-start foto_texto"></p>
@@ -123,7 +123,7 @@ export default {
                 // image must be an absolute path
                 {
                     name: "twitter:image",
-                    content: "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg",
+                    content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_ballena_jorobada.jpg",
                 },
                 // Facebook OpenGraph
                 {
@@ -140,7 +140,7 @@ export default {
                 },
                 {
                     property: "og:image",
-                    content: "https://upload.wikimedia.org/wikipedia/commons/6/61/Humpback_Whale_underwater_shot.jpg",
+                    content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_ballena_jorobada.jpg",
                 },
                 {
                     property: "og:description",

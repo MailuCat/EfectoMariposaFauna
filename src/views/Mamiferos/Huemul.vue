@@ -10,7 +10,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Huemul_Reserva_Cerro_Castillo_3.jpg"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_Huemul.jpg"
           max-height="400"
           max-width="800"
           class="fotonota"
@@ -230,7 +230,7 @@ export default {
         // image must be an absolute path
         {
           name: "twitter:image",
-          content: "",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_Huemul.jpg",
         },
         // Facebook OpenGraph
         {
@@ -247,7 +247,7 @@ export default {
         },
         {
           property: "og:image",
-          content: "",
+          content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_Huemul.jpg",
         },
         {
           property: "og:description",

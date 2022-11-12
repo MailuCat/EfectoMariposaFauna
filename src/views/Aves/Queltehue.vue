@@ -14,7 +14,7 @@
       </v-row>
       <v-row class="justify-center">
         <v-img
-          src="https://inaturalist-open-data.s3.amazonaws.com/photos/3004798/medium.jpg"
+          src="https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_queltehue.jpg"
           max-height="450"
           max-width="800"
           class="m-5"
@@ -142,38 +142,18 @@ export default {
 
       meta: [
         // Twitter Card
-        { name: "twitter:card", content: "summary" },
-        {
-          name: "twitter:title",
-          content: "Aves de Chile: Vanellus chilensis conocido en Chile como queltehue o tregille",
-        },
-        {
-          name: "twitter:description",
-          content:
-            " Conocido en Chile como queltehue o tregille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica",
-        },
-        // image must be an absolute path
-        {
-          name: "twitter:image",
-          content:
-            "",
+        { name: "twitter:card", content: "summary_large_image"},
+        { name: "twitter:title",  content: ""},
+        { name: "twitter:description",content: "Conocido en Chile como queltehue o treguille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica",},
+        { name: "twitter:image", content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_queltehue.jpg",
         },
         // Facebook OpenGraph
-        {
-          property: "og:title",
-          content: "Aves de Chile: Vanellus chilensis conocido en Chile como queltehue o tregille",
-        },
+        { property: "og:title", content: ""},
+        { property: "og:url", content: "https://efectomariposa.org/queltehue"},
         { property: "og:site_name", content: "Efecto Mariposa"},
         { property: "og:type", content: "website" },
-        {
-          property: "og:image",
-          content:
-            "",
-        },
-        {
-          property: "og:description",
-          content:
-            "Conocido en Chile como queltehue o tregille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica",
+        { property: "og:image", content: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_queltehue.jpg"},
+        {property: "og:description", content: "Conocido en Chile como queltehue o tregille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica",
         },
       ],
     };
@@ -184,11 +164,9 @@ export default {
       sharing: {
         url: "https://www.efectomariposa.org/queltehue",
         title: "Aves de Chile: Vanellus chilensis conocido en Chile como queltehue o tregille",
-        description:
-          "Conocido en Chile como queltehue o tregille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica.",
-        quote:
-          "Conocido en Chile como queltehue o tregille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica",
-        twitterUser: "",
+        description:"Conocido en Chile como queltehue o tregille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica.",
+        quote: "Conocido en Chile como queltehue o tregille, el Vanellus chilensis adquierle distintos nombres en cada uno de los países que habita desde Nicaragua hasta el sur de Latinoamérica",
+        twitterUser: "@OrgMariposa",
       },
       networks: [
         {

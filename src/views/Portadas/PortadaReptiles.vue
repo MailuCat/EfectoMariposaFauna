@@ -42,19 +42,19 @@ export default {
             },
             {
                 title: "Salamanqueja del Norte Chico (Garthia gaudichaudii)",
-                src: 'https://inaturalist-open-data.s3.amazonaws.com/photos/157561208/medium.jpeg',
+                src: 'https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_salamanqueja.jpeg',
                 subtitle: "",
                 path: '/salamanqueja'
             },
              {
                 title: "Lagartija Tenue (Liolaemus tenuis)",
-                src: 'https://inaturalist-open-data.s3.amazonaws.com/photos/45847390/medium.jpg',
+                src: 'https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_lagartija_tenue.jpg',
                 subtitle: "",
                 path: '/lagartijatenue'
             },
                {
                 title: "Lagartija de Lolol (Liolaemus confusus)",
-                src: 'https://inaturalist-open-data.s3.amazonaws.com/photos/100852116/original.jpg',
+                src: 'https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_lagartija_lolol.jpg',
                 subtitle: "",
                 path: '/lagartijalolol'
             },

@@ -49,13 +49,13 @@ export default {
             },
             {
                 title: "Sierra de Orocoipo",
-                src: "https://inaturalist-open-data.s3.amazonaws.com/photos/179714875/original.jpeg",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/Cierra_Oroicoipo.jpeg",
                 subtitle: "Únicamente se ha visto en la orilla del río Mantagua en la región de Valparaíso y debido a su pequeña población se encuentra en Peligro Crítico de extinción.",
                 path: '/sierradeorocoipo',
             },
             {
                 title: "Cnemalobus pegnai",
-                src: " ",
+                src: "https://efectomariposa.org/cpg/albums/userpics/10001/2/normal_cenemalobus_pegnai.jpg",
                 subtitle: "Muy poco se dabe de esta especie endémica en Peligro Crítico de extinción que vive en el bosque El Ñague ubicado en el litoral de la costa de Los Vilos en la IV región",
                 path: '/cnemalobuspegnai',
             },
